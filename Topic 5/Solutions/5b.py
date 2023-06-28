@@ -1,13 +1,25 @@
-### output middle character of string
+### checks if input is in the 'acceptable' musical genres
 
-input_string = input('Enter an input string: ')
+genre_input = input('What genre do you want information about? ')
 
-string_length = len(input_string)
-middle_character = string_length // 2 # the first/only middle character
+# fix the casing here - but persist the original input
+genre_lower = genre_input.lower()
 
-if string_length % 2 != 0:
-    middle = input_string[middle_character]
+# these are the genres that we want to confirm exist or not
+acceptable_genres = [
+    'rock', 
+    'pop',
+    'classical',
+    'jazz',
+    'lofi',
+    'metal',
+    'hip-hop',
+    'rap', 
+    'blues', 
+    'r&b'
+]
+
+if genre_lower in acceptable_genres:
+    print('Processing data for', genre_input)
 else:
-    middle = input_string[middle_character - 1: middle_character + 1]
-
-print(f'The middle character(s) of {input_string} is {middle}')
+    print(f'Sorry, I do not have any information about {genre_input}. Try another genre')
