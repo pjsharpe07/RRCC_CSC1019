@@ -1,5 +1,3 @@
-### this is the example of an if statement ###
-
 ### convert to binary if input is > 0
 
 user_num = int(input('Enter your number here:'))
@@ -11,3 +9,4 @@ else:
     split_bin = binary_number.split('b')[1]
     
     print(f'{user_num} in binary is {split_bin}')
+
