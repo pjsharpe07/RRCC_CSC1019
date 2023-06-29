@@ -8,6 +8,5 @@ The repo is split by 'topics'. There are 7 in total in the course, but only 4 - 
 #### TODO:
 
 - Topic 4 - estimated completion: Fall 23
-- Topic 5 - estimated completion: Summer 23
 - Topic 6 - estimated completion: Summer 23
 - Topic 7 - estimated completion: Summer 23
