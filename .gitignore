@@ -1,1 +1,8 @@
+# these are specific to each course I'm teaching
 Courses*
+
+# ignore all csvs
+*.csv
+
+# all cached modules
+*__pycache__
