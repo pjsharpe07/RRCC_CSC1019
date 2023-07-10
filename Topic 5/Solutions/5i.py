@@ -3,7 +3,7 @@ from statistics import mean
 # average calculation #
 
 
-input_number = int(input('What is the next number. Enter a negative to exit: '))
+input_number = int(input('What is the next number? Enter a negative to exit: '))
 
 # average this set at the end
 all_numbers = []
