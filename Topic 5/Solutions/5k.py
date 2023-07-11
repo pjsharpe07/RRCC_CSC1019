@@ -10,7 +10,7 @@ for i in range(5):
 # calculate the average
 average = sum(prof_preds) / 5
 
-# get the upper and lower bound
+# get the upper and lower bound - 20% diff
 upper_bound = average * 1.2
 lower_bound = average * 0.8
 
@@ -18,7 +18,9 @@ armchair_preds = input('What is your prediction? ')
 
 while armchair_preds != 'done':
 
-    armchair_preds = float(armchair_preds) # need to convert to float
+    # need to convert to float - since string is always input and 'final' check
+    armchair_preds = float(armchair_preds) 
+    
     if armchair_preds >= lower_bound and armchair_preds <= upper_bound: # check if within bounds
         print(f'Your prediction of {armchair_preds} seems like a valid prediction')
     else:

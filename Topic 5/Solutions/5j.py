@@ -10,13 +10,13 @@ while add_or_sub.lower() not in ('add', 'subtract'):
 
 # determine minutes as pos/negative
 if add_or_sub.lower() == 'subtract':
-        minutes = - int(input('How many minutes do you want to subtract? ')) # need to make this negative
+    minutes = - int(input('How many minutes do you want to subtract? ')) # need to make this negative
 else:
-    minutes = int(input('How many minutes do you want to subtract? '))
+    minutes = int(input('How many minutes do you want to add? '))
 
 
 # Using current time
 right_now = datetime.now()
 
-final_time = right_now = right_now + timedelta(minutes = minutes)
+final_time = right_now + timedelta(minutes = minutes)
 print(f'Changing current time by {minutes} minutes yields {final_time}')
