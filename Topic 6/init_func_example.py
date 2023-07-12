@@ -2,15 +2,13 @@
 # initial function examples #
 #############################
 
-def add_two_number(number_one, number_two):
-    sum = number_one + number_two
-    return sum
+# def add_two_number(number_one, number_two):
+#     sum = number_one + number_two
+#     return sum
 
-values_added = add_two_number(5, 7)
-print(values_added)
-print(f'12 + 7 = {values_added}')
-
-
+# values_added = add_two_number(5, 7)
+# print(values_added)
+# print(f'5 + 7 = {values_added}')
 
 #############################
 # void and return statements #
@@ -20,20 +18,22 @@ print(f'12 + 7 = {values_added}')
 #     sum = number_one + number_two
 #     print(f'The sum of {number_one} and {number_two} is {sum}')
 
-# print_add_two_number(14, 7)
+# # print_add_two_number(14, 7)
 
+# function_result = print_add_two_number(14, 7)
+# print(f'The return value of the function is {function_result}')
 
 #################################################
 # removing the 'return' from non-void functions #
 #################################################
 
-# def add_two_number(number_one, number_two):
-#     sum = number_one + number_two
+def add_two_number(number_one, number_two):
+    sum = number_one + number_two
     
 
-# values_added = add_two_number(5, 7)
-# print(values_added)
-# print(f'12 + 7 = {values_added}')
+values_added = add_two_number(5, 7)
+print(values_added)
+print(f'12 + 7 = {values_added}')
 
 
 #################################################
