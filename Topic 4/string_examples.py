@@ -2,8 +2,8 @@
 ## using the len function ##
 ############################
 
-# my_name = 'Preston'
-# print(len(my_name)) # 7
+my_name = 'Preston'
+print(len(my_name)) # 7
 
 
 # string indexing
@@ -31,10 +31,18 @@
 
 #### another example ####
 
-my_name = input('What name do you want to try? ') # assume Preston is input
+# my_name = input('What name do you want to try? ') # assume Preston is input
 
-third_and_fourth = my_name[2:4]
-print(third_and_fourth) # es
+# third_and_fourth = my_name[2:4]
+# print(third_and_fourth) # es
 
-fifth_to_end = my_name[4:]
-print(fifth_to_end) # ton
+# fifth_to_end = my_name[4:]
+# print(fifth_to_end) # ton
+
+
+
+######### index out of range? #######
+
+my_name = 'Preston'
+print(my_name[7])
+# IndexError: string index out of range

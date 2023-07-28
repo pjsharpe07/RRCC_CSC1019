@@ -4,14 +4,14 @@
 
 # floor division
 
-# my_num = int(input('What number do you want to try? '))
+my_num = int(input('What number do you want to try? '))
 
-# normal_division = my_num / 11
-# floor_division = my_num // 11
+normal_division = my_num / 11
+floor_division = my_num // 11
 
-# # input of 64
-# print(normal_division) # 5.818181818181818
-# print(floor_division) # 5
+# input of 64
+print(normal_division) # 5.818181818181818
+print(floor_division) # 5
 
 # students should try this
 # my_num = 100

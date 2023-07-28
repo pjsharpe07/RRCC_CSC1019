@@ -1,17 +1,17 @@
 ########### first print/variable statements ######
 
-# wage = 20
-# hours = 40
-# weeks = 52
-# salary = wage * hours * weeks
+wage = 20
+hours = 40
+weeks = 52
+salary = wage * hours * weeks
 
-# print('Salary is', salary)
+print('Salary is', salary)
 
-# # now change hours to 25
-# hours = 35
-# salary = wage * hours * weeks
+# now change hours to 25
+hours = 35
+salary = wage * hours * weeks
 
-# print('New salary is', salary)
+print('New salary is', salary)
 
 
 ###############################################
@@ -139,9 +139,9 @@
 # print(type(my_value)) # <class 'int'>
 
 ##### what is wrong here? 
-my_value = 'Hello there!'
-my_value = int(my_value)
-print(type(my_value))
+# my_value = 'Hello there!'
+# my_value = int(my_value)
+# print(type(my_value))
 
 
 
