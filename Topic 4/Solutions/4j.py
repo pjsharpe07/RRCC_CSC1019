@@ -1,10 +1,10 @@
 # reformatting time
 
-# input_time = input('What time is it? ')
-# hour = input_time[:2]
-# minute = input_time[3:]
+input_time = input('What time is it? ')
+hour = input_time[:2]
+minute = input_time[3:]
 
-# print(f'The hour is {hour} and the minute is {minute}')
+print(f'The hour is {hour} and the minute is {minute}')
 
 # reformatting phone number
 
