@@ -31,7 +31,7 @@ print('New salary is', salary)
 # print(f'My favorite country to visit is {favorite_country} while on vacation')
 
 
-# # the '+' method - the gotcha
+## the '+' method - the gotcha
 # wage = 20
 # hours = 40
 # weekly_salary = wage * hours
@@ -79,6 +79,20 @@ print('New salary is', salary)
 ######################################
 ######## getting user input ##########
 ######################################
+
+#########################################
+####### changing 4a for user input ######
+#########################################
+
+
+#### saying hello to someone
+
+# user_name = input('What is your naeme? ')
+
+# print("It's really nice to meet you", user_name)
+# print(f"It's really nice to meet you {user_name}")
+# print("It's really nice to meet you " + user_name)
+
 
 # # just straight up input
 # favorite_food = input()

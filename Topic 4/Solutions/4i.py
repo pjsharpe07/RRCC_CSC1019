@@ -9,3 +9,5 @@ print(email)
 first_letter = first_name[0]
 email = f'{first_letter}{last_name}@gmail.com'
 print(email)
+# lower case
+print(email.lower())
