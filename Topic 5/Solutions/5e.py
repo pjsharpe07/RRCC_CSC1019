@@ -13,8 +13,15 @@ while pounds_left > 0:
         pounds_left = int(input(f'{pounds_left} is too many vegetables. Try a smaller number?'))
     else:
         print('Beginning to cut some veggies!')
-        pounds_left -= 10
-        hours_worked += 1
+        ### if we're below 10 pounds, we won't work the full hour
+        # but we will finish all the vegetables, so just hard-code the value
+        if pounds_left < 10:
+            hours_worked += pounds_left / 10
+            pounds_left = 0
+        else:
+            pounds_left -= 10
+            hours_worked += 1
+
         print(f'Finished with cutting. There are now {pounds_left}lbs remaining\n')
 else:
     print(f'Finished slicing all of the veggies in {hours_worked} hours')
