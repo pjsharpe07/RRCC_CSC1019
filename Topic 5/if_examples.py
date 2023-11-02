@@ -41,6 +41,16 @@
 ########## and/or/not example ################
 
 
+day_of_week = 'Friday'
+money_in_account = 30
+
+if day_of_week == 'Friday' and money_in_account >= 20:
+    print('You can get delivery')
+else:
+    print('Sorry, no delivery today')
+
+
+
 # rain = input('Is it raining? ')
 # gas = input('Do you have gas? ')
 
