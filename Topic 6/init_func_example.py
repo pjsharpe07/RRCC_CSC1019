@@ -1,3 +1,12 @@
+###########################
+# Refresher round example #
+###########################
+
+float_value = float(input("What number do you want? "))
+round_number = int(input("How many to round? "))
+
+print(round(float_value, round_number))
+
 #############################
 # initial function examples #
 #############################
@@ -27,13 +36,13 @@
 # removing the 'return' from non-void functions #
 #################################################
 
-def add_two_number(number_one, number_two):
-    sum = number_one + number_two
+# def add_two_number(number_one, number_two):
+#     sum = number_one + number_two
     
 
-values_added = add_two_number(5, 7)
-print(values_added)
-print(f'12 + 7 = {values_added}')
+# values_added = add_two_number(5, 7)
+# print(values_added)
+# print(f'12 + 7 = {values_added}')
 
 
 #################################################
