@@ -13,9 +13,18 @@
 ############# basic code that needs modifying #########
 
 
+# loop_counter = 0
+
+# number = 4
+
+# while loop_counter < 10:
+#     print(loop_counter * number)
+
+
 loop_counter = 0
 
 number = 4
 
 while loop_counter < 10:
     print(loop_counter * number)
+    loop_counter += 1
